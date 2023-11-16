@@ -1,6 +1,7 @@
 import streamlit as st
 import  random
 image='https://images.pexels.com/photos/15401444/pexels-photo-15401444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+image='https://s2.loli.net/2023/11/16/Ipxr7etYDTz5X3Z.png'
 st.image(image)
 
 txt = st.text_area(
