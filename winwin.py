@@ -6,7 +6,7 @@ txt = st.text_area(
     "我要中奖；我要中奖；我要中奖；我要中奖；我要中奖；我要中奖；"
     "我要中奖；我要中奖；我要中奖；我要中奖；我要中奖；我要中奖；我要中奖；我要中奖；",
     )
-number = st.number_input('Insert a number',value=3)
+number = st.number_input('中奖人数',value=3)
 
 txt_lines_list = txt.split(";")
 
