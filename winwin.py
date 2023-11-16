@@ -28,7 +28,17 @@ def simple_lottery(participants, num_winners):
 participants = txt_lines_list
 num_winners = number
 
-simple_lottery(participants, num_winners)
 
 
-st.write(simple_lottery(participants, num_winners))
+
+
+
+
+
+st.button("Reset", type="primary")
+if st.button('开始抽奖'):
+    simple_lottery(participants, num_winners)
+    st.write(simple_lottery(participants, num_winners))
+    
+else:
+    st.write('祝愿好运')
