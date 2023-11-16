@@ -5,7 +5,7 @@ image='https://s2.loli.net/2023/11/16/Ipxr7etYDTz5X3Z.png'
 st.image(image)
 
 txt = st.text_area(
-    "请输入人员名单，从企微群中直接copy即可",
+    "请输入人员名单 用分号分割 或从企微群中直接copy即可",
     "我要中奖；我要中奖；我要中奖；我要中奖；我要中奖；我要中奖；"
     "我要中奖；我要中奖；我要中奖；我要中奖；我要中奖；我要中奖；我要中奖；我要中奖；",
     )
@@ -30,9 +30,6 @@ def simple_lottery(participants, num_winners):
 # Example usage
 participants = txt_lines_list
 num_winners = number
-
-
-
 
 
 
