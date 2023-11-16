@@ -41,3 +41,5 @@ if st.button('开始抽奖'):
     
 else:
     st.write('祝愿好运')
+
+st.write('本程序部分代码由CodeLine提供')
