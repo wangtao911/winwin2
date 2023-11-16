@@ -1,5 +1,7 @@
 import streamlit as st
 import  random
+image='https://images.pexels.com/photos/15401444/pexels-photo-15401444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+st.image(image)
 
 txt = st.text_area(
     "请输入人员名单，从企微群中直接copy即可",
@@ -31,8 +33,7 @@ num_winners = number
 
 
 
-image='https://img95.699pic.com/element/40106/6543.png_860.png'
-st.image(image)
+
 
 
 st.button("Reset", type="primary")
