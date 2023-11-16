@@ -2,12 +2,9 @@ import streamlit as st
 import  random
 
 txt = st.text_area(
-    "请输入人员名单，从",
-    "It was the best of times, it was the worst of times, it was the age of "
-    "wisdom, it was the age of foolishness, it was the epoch of belief, it "
-    "was the epoch of incredulity, it was the season of Light, it was the "
-    "season of Darkness, it was the spring of hope, it was the winter of "
-    "despair, (...)",
+    "请输入人员名单，从企微群中直接copy即可",
+    "我要中奖；我要中奖；我要中奖；我要中奖；我要中奖；我要中奖；"
+    "我要中奖；我要中奖；我要中奖；我要中奖；我要中奖；我要中奖；我要中奖；我要中奖；",
     )
 number = st.number_input('Insert a number',value=3)
 
